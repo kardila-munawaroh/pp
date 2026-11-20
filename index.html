@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#060506" />
+  <title>Bintang Pamungkas Nusantara | Portofolio</title>
+  <meta name="description" content="Portofolio Bintang Pamungkas Nusantara — Digital Creative Specialist, Web Developer, mahasiswa Informatika UIN Siber Syekh Nurjati Cirebon." />
+  <meta property="og:title" content="Bintang Pamungkas Nusantara | Portofolio" />
+  <meta property="og:description" content="Digital Creative Specialist · Web Developer · Informatics. Tarik kartunya, lalu ubah jadi Ultraman!" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>html,body{background:#060506;margin:0}</style>
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}#loader{display:none}</style></noscript>
+</head>
+<body>
+
+<!-- Loader -->
+<div id="loader" aria-live="polite">
+  <div class="loader-core">
+    <div class="loader-timer"><span></span></div>
+    <p class="loader-text">Memuat portofolio…</p>
+    <div class="loader-bar"><i></i></div>
+  </div>
+</div>
+
+<!-- Latar -->
+<div class="bg-fx" aria-hidden="true">
+  <span class="blob blob-a"></span><span class="blob blob-b"></span><span class="blob blob-c"></span>
+  <div class="stars"></div>
+</div>
+
+<!-- Navbar -->
+<header class="nav-root">
+  <nav class="nav-glass" aria-label="Navigasi utama">
+    <a href="#beranda" class="nav-brand">Bintang<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#beranda" data-sec="beranda">Beranda</a></li>
+      <li><a href="#about" data-sec="about">Tentang</a></li>
+      <li><a href="#portofolio" data-sec="portofolio">Portofolio</a></li>
+      <li><a href="#pendidikan" data-sec="pendidikan">Pendidikan</a></li>
+      <li><a href="#pengalaman" data-sec="pengalaman">Pengalaman</a></li>
+      <li><a href="#kontak" data-sec="kontak">Kontak</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button type="button" id="sfx-toggle" class="icon-btn" aria-pressed="false" title="Nyalakan suara SFX" aria-label="Nyalakan suara SFX">
+        <svg class="i-off" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+        <svg class="i-on" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+      </button>
+      <button type="button" id="nav-burger" class="icon-btn burger" aria-label="Buka menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div class="nav-mobile" id="nav-mobile">
+    <a href="#beranda" data-sec="beranda">Beranda</a><a href="#about" data-sec="about">Tentang</a><a href="#portofolio" data-sec="portofolio">Portofolio</a>
+    <a href="#pendidikan" data-sec="pendidikan">Pendidikan</a><a href="#pengalaman" data-sec="pengalaman">Pengalaman</a><a href="#kontak" class="cta">Hubungi Saya →</a>
+  </div>
+</header>
+
+<main>
+  <!-- ============ BERANDA ============ -->
+  <section class="hero" id="beranda">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="chip reveal"><i class="dot"></i> Terbuka untuk proyek website &amp; kolaborasi</span>
+        <h1 class="hero-title reveal">
+          <span class="grad">Halo, saya</span>
+          <span class="white">Bintang Pamungkas</span>
+        </h1>
+        <div class="typewriter reveal"><span id="typed"></span><span class="caret"></span></div>
+        <p class="hero-desc reveal">
+          Mahasiswa Informatika yang suka membangun solusi digital — dari website company profile, desain visual, sampai simulasi 3D interaktif.
+          Berawal dari rasa penasaran, sekarang jadi passion untuk membuat sesuatu yang bukan cuma keren dilihat, tapi juga bermanfaat.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#portofolio" class="btn btn-primary">Lihat Portofolio <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+          <a href="#kontak" class="btn btn-secondary">Hubungi Saya</a>
+          <button type="button" class="btn btn-ultra" id="henshin-btn" aria-pressed="false">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            <span id="henshin-label">Henshin!</span>
+          </button>
+        </div>
+        <div class="find-me reveal">
+          <span>Find me</span>
+          <div class="socials" data-socials></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lanyard 3D -->
+    <div class="lanyard-stage" id="lanyard-stage" aria-label="Kartu ID 3D interaktif">
+      <div class="stage-flash" id="stage-flash"></div>
+      <div class="lanyard-hint" id="lanyard-hint"><span>Tarik &amp; lempar kartunya</span><b>•</b><span>ketuk untuk <em>Henshin</em></span></div>
+      <button type="button" class="flip-btn" id="flip-btn" aria-label="Putar kartu" title="Putar kartu">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><path d="M20.5 15a9 9 0 1 1-2.1-9.4L23 10"/></svg>
+      </button>
+      <div class="lanyard-fallback" id="lanyard-fallback" hidden>
+        <img src="assets/me.webp" alt="Bintang Pamungkas Nusantara" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TENTANG ============ -->
+  <section class="section about" id="about">
+    <h2 class="section-title reveal">Tentang Saya</h2>
+    <div class="about-grid">
+      <div class="about-intro reveal">
+        <p class="eyebrow">Hi, I'm</p>
+        <h3 class="about-name">Bintang<br />Pamungkas Nusantara</h3>
+        <p class="about-role">Digital Creative Specialist <i>|</i> Web Developer <i>|</i> Informatics</p>
+        <a href="#kontak" class="btn btn-primary">Hubungi Saya</a>
+      </div>
+
+      <div class="portrait-stage reveal" id="portrait" aria-label="Foto Bintang. Arahkan kursor atau ketuk untuk berubah jadi Ultraman.">
+        <div class="portrait-glow"></div>
+        <div class="portrait">
+          <img class="p-human" src="assets/me.webp" alt="Bintang Pamungkas Nusantara" draggable="false" />
+          <img class="p-ultra" src="assets/ultra.webp" alt="" aria-hidden="true" draggable="false" />
+        </div>
+        <span class="orbit o1"></span><span class="orbit o2"></span>
+        <span class="portrait-ring" id="portrait-ring"></span>
+        <p class="portrait-tip"><span class="tip-hover">Arahkan kursor ke foto</span><span class="tip-touch">Ketuk foto</span> — <em>Henshin!</em></p>
+      </div>
+
+      <div class="about-bio reveal">
+        <p>Saya Bintang, mahasiswa <strong>Informatika</strong> yang sedang menapaki jalan menuju solusi digital yang memadukan <strong>teknologi, riset, kreativitas, dan kepedulian lingkungan</strong>. Tiga tahun di Pondok Pesantren Al-Tsaqafah membentuk disiplin dan karakter saya.</p>
+        <p>Saat ini saya fokus pada <strong>web development</strong> — landing page, company profile, dan solusi web yang cepat serta nyaman dipakai. Di luar itu saya tertarik pada riset lingkungan, penulisan ilmiah, desain visual, dan video editing, termasuk pengalaman di kompetisi karya tulis ilmiah bersama Ecoton tentang mikroplastik.</p>
+        <blockquote>“Learn deeply. Build boldly. Leave a positive impact.”</blockquote>
+      </div>
+    </div>
+
+    <div class="skills">
+      <h3 class="sub-title reveal">Fokus &amp; Keahlian</h3>
+      <div class="skills-grid">
+        <article class="skill-card reveal">
+          <div class="skill-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <h4>Web Development</h4>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>WordPress</span><span>Responsive</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg></div>
+          <h4>Creative</h4>
+          <div class="tags"><span>UI Design</span><span>Edit Foto &amp; Video</span><span>Branding</span><span>Konten</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <h4>Research</h4>
+          <div class="tags"><span>Penulisan Ilmiah</span><span>Riset Lingkungan</span><span>Problem Solving</span></div>
+        </article>
+        <article class="skill-card reveal">
+          <div class="skill-ico"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+          <h4>Minat</h4>
+          <div class="tags"><span>Keberlanjutan Lingkungan</span><span>Teknologi</span><span>Sejarah</span></div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTOFOLIO ============ -->
+  <section class="section" id="portofolio">
+    <h2 class="section-title reveal">Portofolio</h2>
+    <p class="section-lead reveal">Beberapa karya dan proyek yang pernah saya kerjakan — dari web, simulasi 3D, desain, sampai konten.</p>
+    <div class="proj-grid">
+      <a class="proj reveal" href="https://511-corp.github.io/" target="_blank" rel="noopener noreferrer" style="--c1:#ff2d3a;--c2:#3a0509">
+        <div class="proj-cover"><span class="proj-mark">511</span></div>
+        <div class="proj-body">
+          <div class="tags"><span>Web</span><span>Gaming</span></div>
+          <h4>511 Corporation</h4>
+          <p>Website solusi digital dan gaming: desain grafis, video editing, web development, hingga joki MLBB profesional.</p>
+          <span class="proj-link">Kunjungi situs ↗</span>
+        </div>
+      </a>
+      <a class="proj reveal" href="https://bintangpamungkasnusantara.github.io/pioneering" target="_blank" rel="noopener noreferrer" style="--c1:#ff5a3c;--c2:#7a0a14">
+        <div class="proj-cover"><span class="proj-mark">3D</span></div>
+        <div class="proj-body">
+          <div class="tags"><span>Three.js</span><span>Simulator</span></div>
+          <h4>Pioneer Craft</h4>
+          <p>Simulator 3D interaktif untuk merakit tongkat pioneering: kontrol kamera, merakit, melepas, dan menjelajahi model.</p>
+          <span class="proj-link">Coba simulatornya ↗</span>
+        </div>
+      </a>
+      <a class="proj reveal" href="https://bintangpamungkasnusantara.github.io" target="_blank" rel="noopener noreferrer" style="--c1:#e11d2e;--c2:#1c1c1f">
+        <div class="proj-cover"><span class="proj-mark">&lt;/&gt;</span></div>
+        <div class="proj-body">
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          <h4>Website Portofolio Pribadi</h4>
+          <p>Portofolio personal yang menampilkan proyek dan keahlian hasil perjalanan belajar pemrograman — lengkap dengan lanyard 3D ini.</p>
+          <span class="proj-link">Buka ↗</span>
+        </div>
+      </a>
+      <a class="proj reveal" href="https://drive.google.com/drive/folders/16H_bjm_a4rokClCKSfmzF5_ALMqqHoDT?usp=sharing" target="_blank" rel="noopener noreferrer" style="--c1:#ff4d6d;--c2:#8a0f35">
+        <div class="proj-cover"><span class="proj-mark">Ds</span></div>
+        <div class="proj-body">
+          <div class="tags"><span>Desain Grafis</span><span>Branding</span></div>
+          <h4>Portofolio Desain Grafis</h4>
+          <p>Kumpulan karya desain visual: poster, infografis, branding, dan konten media sosial.</p>
+          <span class="proj-link">Lihat di Drive ↗</span>
+        </div>
+      </a>
+      <a class="proj reveal" href="https://drive.google.com/drive/folders/158RmGUpRmxH1A4KmbA9rg_zjjnRcpjhO?usp=drive_link" target="_blank" rel="noopener noreferrer" style="--c1:#ff3b30;--c2:#240b0e">
+        <div class="proj-cover"><span class="proj-mark">▶</span></div>
+        <div class="proj-body">
+          <div class="tags"><span>Video Editing</span><span>Promosi</span></div>
+          <h4>Portofolio Video Editing</h4>
+          <p>Kumpulan hasil editing video: dokumentasi acara, konten sosial media, dan video promosi.</p>
+          <span class="proj-link">Lihat di Drive ↗</span>
+        </div>
+      </a>
+      <a class="proj reveal" href="https://www.tiktok.com/@b1ntangz" target="_blank" rel="noopener noreferrer" style="--c1:#f43f5e;--c2:#1a1a1d">
+        <div class="proj-cover"><span class="proj-mark">@</span></div>
+        <div class="proj-body">
+          <div class="tags"><span>Content Creator</span><span>TikTok</span></div>
+          <h4>Content Creator</h4>
+          <p>Karya video editing yang dibagikan di TikTok <b>@b1ntangz</b> sebagai bagian dari portofolio konten kreator.</p>
+          <span class="proj-link">Tonton ↗</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ PENDIDIKAN ============ -->
+  <section class="section" id="pendidikan">
+    <h2 class="section-title reveal">Pendidikan &amp; Bootcamp</h2>
+    <div class="edu-grid">
+      <a class="edu reveal" href="https://uinssc.ac.id/" target="_blank" rel="noopener noreferrer">
+        <span class="logo-tile"><img src="assets/edu-uinssc.webp" alt="Logo UIN Siber Syekh Nurjati Cirebon" width="64" height="64" loading="lazy" decoding="async" /></span>
+        <div><h4>UIN Siber Syekh Nurjati Cirebon</h4><p>Mahasiswa Informatika</p></div>
+      </a>
+      <a class="edu reveal" href="https://websitemaker.id/" target="_blank" rel="noopener noreferrer">
+        <span class="logo-tile txt" aria-hidden="true">WM</span>
+        <div><h4>Website Maker Bootcamp</h4><p>Bootcamp pembuatan website</p></div>
+      </a>
+      <a class="edu reveal" href="https://altsaqafah.id/" target="_blank" rel="noopener noreferrer">
+        <span class="logo-tile"><img src="assets/edu-tsaqafah.webp" alt="Logo Pondok Pesantren Al-Tsaqafah" width="64" height="64" loading="lazy" decoding="async" /></span>
+        <div><h4>Pondok Pesantren Al-Tsaqafah</h4><p>Tiga tahun menempa disiplin &amp; karakter</p></div>
+      </a>
+      <a class="edu reveal" href="https://smpn126jakarta.sch.id/" target="_blank" rel="noopener noreferrer">
+        <span class="logo-tile"><img src="assets/edu-smpn126.webp" alt="Logo SMPN 126 Jakarta" width="64" height="64" loading="lazy" decoding="async" /></span>
+        <div><h4>SMPN 126 Jakarta</h4><p>Pendidikan menengah pertama</p></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============ PENGALAMAN ============ -->
+  <section class="section" id="pengalaman">
+    <h2 class="section-title reveal">Pengalaman Organisasi</h2>
+    <p class="section-lead reveal">Beberapa pengalaman organisasi yang membentuk kemampuan kepemimpinan, kerja sama tim, dan tanggung jawab.</p>
+    <ol class="timeline">
+      <li class="reveal"><span class="tl-dot"></span><div class="tl-card"><span class="logo-tile"><img src="assets/exp-passadam.webp" alt="Logo PASSADAM SMPN 126 Jakarta" width="64" height="64" loading="lazy" decoding="async" /></span><div><span class="tl-date">2022 – 2023</span><h4>Ketua Ekstrakurikuler PASSADAM</h4><p>Pasukan Pengibar Bendera · SMPN 126 Jakarta</p></div></div></li>
+      <li class="reveal"><span class="tl-dot"></span><div class="tl-card"><span class="logo-tile"><img src="assets/exp-osis.webp" alt="Logo OSIS" width="64" height="64" loading="lazy" decoding="async" /></span><div><span class="tl-date">OSIS</span><h4>Ketua Bidang Keimanan dan Ketaqwaan</h4><p>OSIS SMPN 126 Jakarta</p></div></div></li>
+      <li class="reveal"><span class="tl-dot"></span><div class="tl-card"><span class="logo-tile"><img src="assets/exp-pramuka.webp" alt="Logo Pramuka Al-Tsaqafah" width="64" height="64" loading="lazy" decoding="async" /></span><div><span class="tl-date">Pramuka</span><h4>Ketua Bidang Pembinaan dan Latihan</h4><p>Dewan Ambalan Pramuka Al-Tsaqafah</p></div></div></li>
+    </ol>
+  </section>
+
+  <!-- ============ KONTAK ============ -->
+  <section class="section" id="kontak">
+    <h2 class="section-title reveal">Hubungi Saya</h2>
+    <div class="contact-card reveal">
+      <div class="contact-copy">
+        <h3>Punya ide atau butuh website?</h3>
+        <p>Butuh website company profile atau landing page untuk bisnismu? Ngobrol dulu aja — kita cari solusi yang paling pas.</p>
+        <a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://wa.me/6282124587092?text=Halo%20Bintang,%20saya%20tertarik%20dengan%20portofolio%20Anda">Chat via WhatsApp</a>
+      </div>
+      <div class="contact-links" data-contacts></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <a href="#beranda" class="nav-brand">Bintang<span>.</span></a>
+      <p>Portofolio pribadi Bintang Pamungkas Nusantara — dibuat dengan HTML, CSS, JavaScript &amp; Three.js.</p>
+    </div>
+    <div class="socials" data-socials></div>
+  </div>
+  <p class="copy">© <span id="year"></span> Bintang Pamungkas Nusantara. Learn deeply. Build boldly. Leave a positive impact.</p>
+</footer>
+
+<script src="js/lanyard.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
